@@ -183,23 +183,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 10px 50px 10px 50px;
 }
 
-.second-section-icon {
-    width: 100px;
-    height: 200px;
+.second-section-details img {
+    width: 40%;
+    padding: 10px;
 }
-
-#second-section img {}
 
 .second-section-details {
     display: flex;
 }
 
-.second-section-items {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-    align-items: center;
+.second-section-item {
+    padding: 10px;
 }
