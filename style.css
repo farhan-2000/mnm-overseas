@@ -176,3 +176,30 @@ body {
 }
 
 /* hero section end  */
+
+/* 2nd section start  */
+
+#second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.second-section-icon {
+    width: 100px;
+    height: 200px;
+}
+
+#second-section img {}
+
+.second-section-details {
+    display: flex;
+}
+
+.second-section-items {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    align-items: center;
+}
