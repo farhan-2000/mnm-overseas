@@ -198,3 +198,73 @@ body {
 .second-section-item {
     padding: 10px;
 }
+
+/* resources section  */
+
+#resources-section {
+    background-color: #70BFBF;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+#resources-section h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#resources-section-details {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.resources-section-items {
+    background-color: #F7FBF7;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* Stand out in the job market */
+#job-market-section {
+    background-color: #FFFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 50px 20px 50px;
+}
+
+#job-market-section a {
+    text-decoration: none;
+    color: white;
+    background-color: #70BFBF;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#job-market-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#job-market-button {
+    display: flex;
+    flex-direction: column;
+}
+
+#job-market-items {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly
+}
