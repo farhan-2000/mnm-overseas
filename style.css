@@ -268,3 +268,29 @@ body {
     align-items: baseline;
     justify-content: space-evenly
 }
+
+/* What's new on Job Bank  */
+#job-bank-section {
+    display: flex;
+    background-color: #D9D9D9;
+}
+
+#job-bank-section-details {
+    padding: 60px;
+    width: 50%;
+}
+
+#job-bank-section-img {
+    width: 50%;
+    background-image: url(job-bank-section-img.jpg);
+    background-position: right;
+    opacity: 0.8;
+}
+
+#job-bank-section-details a {
+    text-decoration: none;
+    color: white;
+    background-color: #70BFBF;
+    padding: 10px;
+    border-radius: 20px;
+}
