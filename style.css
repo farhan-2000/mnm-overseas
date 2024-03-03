@@ -272,7 +272,7 @@ body {
 /* What's new on Job Bank  */
 #job-bank-section {
     display: flex;
-    background-color: #D9D9D9;
+    background-color: #F2F2F2;
 }
 
 #job-bank-section-details {
@@ -293,4 +293,51 @@ body {
     background-color: #70BFBF;
     padding: 10px;
     border-radius: 20px;
+}
+
+/* Job Bank By The Numbers */
+
+#job-number-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+
+#job-number-section>h2 {
+    color: #13d6d6;
+    font-size: 30px;
+}
+
+#job-number-details {
+    display: flex;
+}
+
+#job-number-section a {
+    text-decoration: none;
+    color: white;
+    background-color: #13d6d6;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.counter-group {
+    background-color: #13d6d6;
+    border-radius: 30px;
+    padding: 15px;
+    margin-inline: 30px;
+    width: 220px;
+    height: 150px;
+}
+
+.arrow-div {
+    display: flex;
+}
+
+.arrow-div h2 {
+    margin-left: 20px;
+    color: black;
 }
